@@ -1,0 +1,8 @@
+alias g="git"
+alias ga="git add -A"
+alias gcam="git commit -a -m"
+alias gcm="git commit -m"
+alias gc="git commit"
+alias gco="git checkout"
+alias gs="git status"
+alias gd="git diff"
