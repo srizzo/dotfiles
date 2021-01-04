@@ -1,0 +1,9 @@
+Shell Process
+com.google.gct.core
+com.intellij.kubernetes
+de.dieploegers.develop.idea.shellfilter
+net.ashald.envfile
+org.intellij.plugins.hcl
+org.jetbrains.plugins.go
+org.jetbrains.plugins.go-template
+org.jetbrains.plugins.ruby
