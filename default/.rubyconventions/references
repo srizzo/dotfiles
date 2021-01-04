@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+# given an identifier
+name="$(echo $RCP_TEXT | gsed -E 's/Service|Controller|Repository|Presenter//g' | gsed -E 's/(^|_)([a-z])/\U\2/g')"
+
+# provide pontential references
+echo "${name}Service"
+echo "${name}Controller"
+echo "${name}Repository"
+echo "${name}Presenter"

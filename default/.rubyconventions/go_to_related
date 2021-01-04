@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'active_support/core_ext/string'
+puts ENV['RCP_TEXT'].camelize

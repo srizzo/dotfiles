@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+#if [[ "$RCP_TEXT" == "class2" ]]; then
+#    exit 0
+#fi
+
+echo $RCP_TEXT | gsed -E 's/(^|_)([a-z])/\U\2/g'
