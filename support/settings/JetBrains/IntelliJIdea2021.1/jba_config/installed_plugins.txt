@@ -1,0 +1,24 @@
+CheckStyle-IDEA
+Shell Process
+String Manipulation
+com.google.gct.corez
+com.google.ide-perf
+com.intellij.kubernetes
+com.tabnine.TabNine
+de.dieploegers.develop.idea.shellfilter
+google-java-format
+net.ashald.envfile
+org.intellij.plugins.hcl
+org.jetbrains.idea.grammar
+org.jetbrains.plugins.go
+org.jetbrains.plugins.go-template
+org.jetbrains.plugins.ruby
+org.jetbrains.kotlin
+me.mbolotov.cypress
+me.mbolotov.cypress.pro
+R4Intellij
+com.intellij.plugins.html.instantEditing
+PsiViewer
+Pythonid
+Dummy Text Generator
+com.intellij.lang.jsgraphql

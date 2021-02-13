@@ -1,0 +1,23 @@
+<keymap version="1" name="CodeBuddy (macOS) RubyMine" parent="CodeBuddy (macOS)">
+  <action id="CopyPaths">
+    <keyboard-shortcut first-keystroke="shift meta c" />
+  </action>
+  <action id="DebugClass">
+    <keyboard-shortcut first-keystroke="shift meta r" />
+  </action>
+  <action id="DirDiffMenu.SynchronizeDiff.All" />
+  <action id="EditorSplitLine" />
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="ctrl meta down" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="ctrl meta up" />
+  </action>
+  <action id="RunClass">
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
+  </action>
+  <action id="RunDashboard.Debug" />
+  <action id="RunDashboard.Run" />
+  <action id="ViewSource" />
+  <action id="runShellFileAction" />
+</keymap>

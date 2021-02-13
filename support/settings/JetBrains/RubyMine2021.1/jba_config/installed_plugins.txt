@@ -1,0 +1,15 @@
+PlantUML integration
+Shifter
+String Manipulation
+org.intellij.plugins.hcl
+net.ashald.envfile
+name.kropp.intellij.makefile
+io.github.srizzo.rubyconventions
+com.dubreuia
+com.google.ide-perf
+PsiViewer
+org.zalando.intellij.swagger
+com.intellij.swagger
+aws.toolkit
+io.github.srizzo.rspector
+R4Intellij

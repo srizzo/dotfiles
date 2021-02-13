@@ -1,4 +1,4 @@
-<keymap version="1" name="macOS (custom)" parent="Mac OS X 10.5+">
+<keymap version="1" name="CodeBuddyKeymap" parent="Mac OS X 10.5+">
   <action id="$Delete">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
@@ -16,6 +16,10 @@
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="meta open_bracket" />
+    <mouse-shortcut keystroke="button4" />
+  </action>
   <action id="ChangesView.GroupBy.Module" />
   <action id="ChangesView.ShelveSilently" />
   <action id="CheckinProject" />
@@ -28,10 +32,16 @@
   </action>
   <action id="Console.TableResult.NextPage" />
   <action id="Console.TableResult.Reload" />
+  <action id="CopyPaths">
+    <keyboard-shortcut first-keystroke="shift meta c" />
+    <keyboard-shortcut first-keystroke="shift meta alt c" />
+  </action>
   <action id="DSM.OpenInEditor">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
-  <action id="DebugClass" />
+  <action id="DebugClass">
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
+  </action>
   <action id="Debugger.EditFrameSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
@@ -60,6 +70,16 @@
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="meta y" />
   </action>
+  <action id="EditorAddOrRemoveCaret" />
+  <action id="EditorAddRectangularSelectionOnMouseDrag">
+    <mouse-shortcut keystroke="meta alt button1" />
+  </action>
+  <action id="EditorCreateRectangularSelection">
+    <mouse-shortcut keystroke="shift alt button1" />
+  </action>
+  <action id="EditorCreateRectangularSelectionOnMouseDrag">
+    <mouse-shortcut keystroke="alt button1" />
+  </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="shift ctrl k" />
   </action>
@@ -75,9 +95,11 @@
     <keyboard-shortcut first-keystroke="meta left" />
   </action>
   <action id="EditorMatchBrace" />
-  <action id="EditorSelectWord">
-    <keyboard-shortcut first-keystroke="alt up" />
-    <keyboard-shortcut first-keystroke="shift meta b" />
+  <action id="EditorSelectLine">
+    <keyboard-shortcut first-keystroke="shift meta l" />
+  </action>
+  <action id="EditorSelectParagraph">
+    <keyboard-shortcut first-keystroke="ctrl alt p" />
   </action>
   <action id="EditorTextEnd">
     <keyboard-shortcut first-keystroke="meta end" />
@@ -94,6 +116,17 @@
   <action id="EditorTextStartWithSelection">
     <keyboard-shortcut first-keystroke="shift meta home" />
     <keyboard-shortcut first-keystroke="shift meta up" />
+  </action>
+  <action id="EditorToggleColumnMode">
+    <keyboard-shortcut first-keystroke="shift meta 8" />
+    <keyboard-shortcut first-keystroke="meta back_slash" />
+  </action>
+  <action id="EditorTranspose">
+    <keyboard-shortcut first-keystroke="ctrl t" />
+  </action>
+  <action id="EvaluateExpression">
+    <keyboard-shortcut first-keystroke="alt f8" />
+    <keyboard-shortcut first-keystroke="shift meta alt i" />
   </action>
   <action id="ExpandAllToLevel1">
     <keyboard-shortcut first-keystroke="meta alt 2" />
@@ -121,9 +154,12 @@
     <keyboard-shortcut first-keystroke="meta f12" />
     <keyboard-shortcut first-keystroke="shift meta t" />
   </action>
-  <action id="Find">
-    <keyboard-shortcut first-keystroke="meta f" />
-    <keyboard-shortcut first-keystroke="meta e" />
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="meta close_bracket" />
+    <mouse-shortcut keystroke="button5" />
+  </action>
+  <action id="Generate">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
   <action id="Git.Stage.Refresh" />
   <action id="Github.PullRequest.Comments.Reload" />
@@ -141,9 +177,13 @@
     <keyboard-shortcut first-keystroke="meta o" />
     <keyboard-shortcut first-keystroke="meta t" />
   </action>
+  <action id="GotoImplementation">
+    <keyboard-shortcut first-keystroke="meta alt b" />
+  </action>
   <action id="GotoRelated">
     <keyboard-shortcut first-keystroke="shift meta alt down" />
   </action>
+  <action id="GotoSymbol" />
   <action id="GotoTest">
     <keyboard-shortcut first-keystroke="meta alt down" />
   </action>
@@ -160,6 +200,8 @@
     <keyboard-shortcut first-keystroke="f4" />
   </action>
   <action id="IncrementWindowHeight" />
+  <action id="IntroduceField" />
+  <action id="Jdbc.OpenConsole.New" />
   <action id="Jdbc.OpenEditor">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
@@ -185,16 +227,30 @@
   <action id="NavBar-navigate">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
+  <action id="NewElementMenu">
+    <keyboard-shortcut first-keystroke="meta n" />
+  </action>
   <action id="NextOccurence" />
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="shift meta close_bracket" />
+    <keyboard-shortcut first-keystroke="meta alt right" />
+  </action>
   <action id="OpenModuleSettings">
     <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="OptimizeImports">
+    <keyboard-shortcut first-keystroke="ctrl alt o" />
+    <keyboard-shortcut first-keystroke="meta alt o" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="shift meta open_bracket" />
+    <keyboard-shortcut first-keystroke="meta alt left" />
   </action>
   <action id="ProjectViewEditSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
   <action id="QuickEvaluateExpression">
     <keyboard-shortcut first-keystroke="meta alt f8" />
-    <mouse-shortcut keystroke="alt button1" />
     <keyboard-shortcut first-keystroke="shift meta i" />
   </action>
   <action id="QuickImplementations">
@@ -202,18 +258,20 @@
   </action>
   <action id="RecentFiles" />
   <action id="RecentLocations" />
+  <action id="Refactorings.QuickListPopupAction" />
   <action id="Refresh" />
   <action id="RemoteHostView.EditSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
-  <action id="Replace">
-    <keyboard-shortcut first-keystroke="shift meta e" />
-  </action>
+  <action id="Replace" />
   <action id="ReplaceInPath">
     <keyboard-shortcut first-keystroke="shift meta h" />
   </action>
   <action id="Rerun">
     <keyboard-shortcut first-keystroke="meta alt r" />
+  </action>
+  <action id="RerunFailedTests">
+    <keyboard-shortcut first-keystroke="ctrl meta alt r" />
   </action>
   <action id="RerunTests">
     <keyboard-shortcut first-keystroke="shift alt r" />
@@ -225,20 +283,23 @@
   <action id="Resume">
     <keyboard-shortcut first-keystroke="f9" />
   </action>
-  <action id="Run">
-    <keyboard-shortcut first-keystroke="meta r" />
+  <action id="Run" />
+  <action id="RunClass">
+    <keyboard-shortcut first-keystroke="shift meta r" />
   </action>
   <action id="RunDashboard.Debug" />
   <action id="RunDashboard.UngroupConfigurations">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
+  <action id="RunInspection" />
   <action id="SearchEverywhere.NavigateToNextGroup">
     <keyboard-shortcut first-keystroke="page_down" />
   </action>
   <action id="SearchEverywhere.NavigateToPrevGroup">
     <keyboard-shortcut first-keystroke="page_up" />
   </action>
+  <action id="SelectAllOccurrences" />
   <action id="SelectInProjectView">
     <keyboard-shortcut first-keystroke="ctrl meta r" />
   </action>
@@ -246,6 +307,7 @@
     <keyboard-shortcut first-keystroke="ctrl g" />
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
+  <action id="ServiceView.GroupByContributor" />
   <action id="ServiceView.ShowServices" />
   <action id="ShowNavBar">
     <keyboard-shortcut first-keystroke="alt home" />
@@ -262,11 +324,19 @@
   <action id="Svn.RefreshWorkingCopies" />
   <action id="SwitcherIterateItems" />
   <action id="SwitcherRecentEditedChangedToggleCheckBox" />
+  <action id="Terminal.ClearBuffer">
+    <keyboard-shortcut first-keystroke="meta k" />
+  </action>
+  <action id="Terminal.Paste">
+    <keyboard-shortcut first-keystroke="meta v" />
+  </action>
+  <action id="Terminal.SwitchFocusToEditor" />
   <action id="TodoViewGroupByShowModules" />
   <action id="Tool_External Tools_mate">
     <keyboard-shortcut first-keystroke="shift meta back_slash" />
   </action>
   <action id="Uml.CollapseNodes" />
+  <action id="UsageGrouping.UsageType" />
   <action id="Vcs.EditSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
@@ -281,10 +351,18 @@
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
   <action id="org.jetbrains.plugins.ruby.rails.console.ReloadSources" />
+  <action id="osmedile.intellij.stringmanip.SwitchCasePopup">
+    <keyboard-shortcut first-keystroke="shift ctrl underscore" />
+    <keyboard-shortcut first-keystroke="shift ctrl minus" />
+  </action>
   <action id="osmedile.intellij.stringmanip.ToLowerCaseAction">
     <keyboard-shortcut first-keystroke="shift ctrl u" />
   </action>
   <action id="osmedile.intellij.stringmanip.ToUpperCaseAction">
     <keyboard-shortcut first-keystroke="ctrl u" />
+  </action>
+  <action id="rspec.LetIntroduce" />
+  <action id="runShellFileAction">
+    <keyboard-shortcut first-keystroke="meta r" />
   </action>
 </keymap>
